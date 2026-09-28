@@ -50,27 +50,27 @@ export const products = [
 // and change image to "/reviews/your-file.jpg".
 export const reviews = [
   {
-    image: "/reviews/Review1.svg",
+    image: `${import.meta.env.BASE_URL}reviews/Review1.svg`,
     name: "Customer Review",
     text: "Our valueable customer reviews"
   },
   {
-    image: "/reviews/Review2.svg",
+    image: `${import.meta.env.BASE_URL}reviews/Review2.svg`,
     name: "Customer Review",
     text: "Our valueable customer reviews"
   },
   {
-    image: "/reviews/Review3.svg",
+    image: `${import.meta.env.BASE_URL}reviews/Review3.svg`,
     name: "Customer Review",
     text: "Our valueable customer reviews"
   },
    {
-    image: "/reviews/Review4.svg",
+    image: `${import.meta.env.BASE_URL}reviews/Review4.svg`,
     name: "Customer Review",
     text: "Our valueable customer reviews"
   },
    {
-    image: "/reviews/Review5.svg",
+    image: `${import.meta.env.BASE_URL}reviews/Review5.svg`,
     name: "Customer Review",
     text: "Our valueable customer reviews"
   }
